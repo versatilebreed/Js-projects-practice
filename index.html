@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App - Get Current Weather Information</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="search">
+            <input type="text" id="searchInput" placeholder="Enter city name">
+            <button><img src="app-images//images/search.png" alt="Search"></button>
+        </div>
+
+
+<div class="error">
+    <p>City not found</p>
+</div>
+
+        <div class="weather-Info">
+
+            <img src="app-images//images/rain.png"  class="Weather-icon" alt="Weather Icon">
+            <h1 class="temp">36°C</h1>
+            <h2 class="city">Asansol</h2>
+        
+            <div class="details">
+               <div class="col">
+                  <img src="app-images/images/humidity.png" alt="Humidity Icon">
+                 <div>
+                   <p class="humidity">60%</p>
+                   <p>Humidity</p>
+                 </div>
+            </div>
+
+             <div class="col">
+                <img src="app-images/images/wind.png" alt="Wind Speed Icon">
+                <div>
+                    <p class="wind">25 km/h</p>
+                    <p>Wind Speed</p>
+                </div>
+             </div>
+            </div>
+        </div>
+    </div>
+    <script src="Script.js"></script>
+</body>
+</html>
